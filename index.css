@@ -5,11 +5,13 @@
 
 body {
     background-color: rgb(18, 22, 28);
+    height: 6035px;
 }
 
 header {
     background-color: rgb(29, 32, 41);
-    height: 85vh;
+    height: 7.9vh;
     width: auto;
     min-height: 85px;
+
 }
