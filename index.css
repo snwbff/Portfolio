@@ -9,6 +9,7 @@ body {
 
 header {
     background-color: rgb(29, 32, 41);
-    height: 85px;
+    height: 85vh;
     width: auto;
+    min-height: 85px;
 }
