@@ -1,39 +1,33 @@
+ /* Подгрузка шрифта */
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@600;700&display=swap');
 
-* {
+ /* Фон сайта */
+body {
+    background-color: #111A20;
     margin: 0%;
     padding: 0%;
 }
 
-body {
-    background-color: #111A20;
-}
-
-.header {
+ /* Шапка сайта */
+header {
     background-color: #17232B;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
     height: 85px;
     width: auto;
 }
 
-.header_button {
-    font-size: 20px;
-    font-family: 'Jost', sans-serif;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: 1px;
-    color: #ffffff;
-    top: 27px;
+/* Левая сторона */
+.l_side {
     position: absolute;
-    text-decoration: none;
-    transition: color 0.2s linear;
-    
+    left: 13.82%;
+    top: 26px;
 }
 
-.header_button:hover {
-    color: #FFA97A
-}
-
-.name {
+/* Стиль лого-текста*/
+.logo {
     font-size: 30px;
     font-family: 'Jost', sans-serif;
     font-weight: 700;
@@ -41,28 +35,29 @@ body {
     letter-spacing: 2px;
     color: #ffffff;
     text-decoration: none;
+}
 
+/* Правая сторона */
+.r_side {
     position: absolute;
-    left: 13.82%;
-    top: 26px;
+    top: 27px;
+    right: 24.6%;
 }
 
-#about {
-    left: 34.3%;
+/* Главный стиль кнопок сверху */
+ .header_button {
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    margin-left: 40px;    
 }
 
-#experience {
-    left: 41.4%;
-}
-
-#services {
-    left: 52.1875%;
-}
-
-#portfolio {
-    left: 61.015625%;
-}
-
-#contact {
-    left: 69.921875%;
+/* Стиль кнопок при наведении */
+.header_button:hover {
+    color: #FFA97A;
 }
