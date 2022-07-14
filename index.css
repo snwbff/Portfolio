@@ -1,16 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600;700&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
 }
 
 body {
-    background-color: rgb(18, 22, 28);
-    height: 6035px;
+    background-color: #111A20;
 }
 
-header {
-    background-color: rgb(29, 32, 41);
-    height: 8vh;
+.header {
+    background-color: #17232B;
+    height: 85px;
     width: auto;
+}
 
+.header_button {
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    top: 27px;
+    position: absolute;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    
+}
+
+.header_button:hover {
+    color: #FFA97A
+}
+
+.name {
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-decoration: none;
+
+    position: absolute;
+    left: 13.82%;
+    top: 26px;
+}
+
+#about {
+    left: 34.3%;
+}
+
+#experience {
+    left: 41.4%;
+}
+
+#services {
+    left: 52.1875%;
+}
+
+#portfolio {
+    left: 61.015625%;
+}
+
+#contact {
+    left: 69.921875%;
 }
