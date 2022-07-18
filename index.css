@@ -45,10 +45,7 @@ header {
 
 .header_buttons {
     display: flex;
-}
-
-.header_item {
-    display: flex;
+    list-style-type:none;
 }
 
 .header_link {
@@ -63,10 +60,18 @@ header {
     text-decoration: none;
 }
 
-.about_text {
+.hll_block {
+    display: block;
+    max-width: 928px;
+    margin: 0 auto;
+}
+
+.hll_text {
+    display: block;
     color: #fff;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
     text-align: center;
+    user-select: none;
 }
 .hll {
     font-size: 17px;
@@ -86,12 +91,48 @@ header {
     margin-top: 15px;
     color: #FFA97A;
 }
+.hll_buttons {
+    display: flex;
+    justify-content:center;
+}
 
 .list_abbt_bttn {
     display: flex;
-    justify-content: center;
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
 }
-.list_button_cv, .list_button_about {
-    display:flex;
+
+.button_cv, .button_about {
     text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    user-select: none;
+    margin-bottom: 26px;
+}
+
+.button_about {
+    display:inline-block;
+    background-color: #FFA97A;
+    height: 51px;
+    width: 135px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.button_cv {
+    display: inline-block;
+    height: 47px;
+    width: 154px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #FFA97A;
+    margin-right: 15px;
+}
+
+.igm_hll {
+    height: 275px;
+    width: 275px;
 }
