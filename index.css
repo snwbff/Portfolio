@@ -64,6 +64,7 @@ header {
     display: block;
     max-width: 928px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .hll_text {
@@ -124,15 +125,91 @@ header {
 
 .button_cv {
     display: inline-block;
-    height: 47px;
-    width: 154px;
+    background-color: #FFA97A;
+    height: 51px;
+    width: 156px;
     border-radius: 5px;
     text-align: center;
-    border: 2px solid #FFA97A;
     margin-right: 15px;
+}
+
+.button_cv:active, .button_about:active {
+    background-color: #111A20;
+    border: 2px solid #FFA97A;
+    color: #FFA97A;
+}
+.button_cv:active {
+    height: 47px;
+    width: 152px
+}
+
+.button_about:active {
+    height: 47px;
+    width: 131px;
 }
 
 .igm_hll {
     height: 275px;
     width: 275px;
 }
+
+.about_block {
+    display: block;
+    max-width: 928px;
+    margin: 0 auto;
+}
+
+.about_text {
+    display: block;
+    text-align: center;
+    user-select: none;
+}
+
+.about_me {
+    color: #FFA97A;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.my_intro {
+    color: #767676;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.workinfo_block {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.work_info_text {
+    width: 397px;
+    height: 75px;
+}
+
+.work_info_text {
+    margin: 0px;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #959595;
+    user-select: none;
+}
+
+.workscont_block {
+    width: 397px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.workscont_1, .workscont_2, .workscont_3  {
+    background-color: #182228;
+    height: 90px;
+    width: 117px;
+    border-radius: 13.5px;
+    margin-top: 50px;
+}
+
