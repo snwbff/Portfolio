@@ -1,29 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Portfolio</title>
-        <meta name="Author" content="Дмитрий Коноплёв">
-        <meta name="description" content="Это сайт портфолио">
-        <meta charset=utf-8">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <header>
-        <div class="header">
-            <div class="l_side">
-                <a href="#" class="logo">Noe</a>
-            </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
 
-            <div class="r_side">
-                <nav>
-                <a href="#" class="header_button" id="about">About</a>
-                <a href="#" class="header_button" id="experience">Experience</a>
-                <a href="#" class="header_button" id="services">Services</a>
-                <a href="#" class="header_button" id="portfolio">Portfolio</a>
-                <a href="#" class="header_button" id="contact">Contact</a>
-                </nav>
-            </div>
+<body>
+    <header class="header">
+    <div class="header_list">
+        <div class="l_side">
+            <a href="#" class="header_logo"></a>
         </div>
-        </header>
-    </body>
+
+        <div class="r_side">
+            <nav class="header_nav">
+            <ul class="header_buttons">
+            <li class="header_item"> <a class="header_link" href="#">About</a> </li>
+            <li class="header_item"> <a class="header_link" href="#">Experience</a> </li>
+            <li class="header_item"> <a class="header_link" href="#">Services</a> </li>
+            <li class="header_item"> <a class="header_link" href="#">Portfolio</a> </li>
+            <li class="header_item"> <a class="header_link" href="#">Contact</a> </li>
+            </ul>
+            </nav>
+        </div>
+    </div>
+    </header>
+
+    <main class="main">
+    <div class="about_text">
+        <p class="hll">Hello, I’m</p>
+        <h1 class="name">Noé Crozat</h1>
+        <p class="design">Ui/Ux Designer</p>
+    </div>
+
+    <div class="about_buttons">
+        <ul class="list_abbt_bttn">
+        <li class="list_button_cv"><button class="button_cv">Download CV</button></li>
+        <li class="list_button_about"><button class="button_about">About me</button></li>
+        </ul>
+    </div>
+    </main>
+</body>
 </html>
