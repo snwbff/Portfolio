@@ -16,7 +16,7 @@ header {
     background-color: #17232B;
 }
 
-.header_list {
+.header_b {
     display: flex;
     justify-content: space-between;
     height: 85px;
@@ -26,11 +26,11 @@ header {
     align-items: center;
 }
 
-.r_side {
+.header_r_side {
     margin-right: 30px;
 }
 
-.l_side {
+.header_l_side {
     margin-left: 30px;
 }
 
@@ -43,7 +43,7 @@ header {
 
 }
 
-.header_buttons {
+.header_buttons_list {
     display: flex;
     list-style-type:none;
 }
@@ -60,51 +60,50 @@ header {
     text-decoration: none;
 }
 
-.hll_block {
+.NEW_BLOCK {
     display: block;
     max-width: 928px;
-    margin: 0 auto;
-    margin-bottom: 50px;
+    margin: 0 auto 50px auto;  
 }
 
-.hll_text {
+.welcome_text_b {
     display: block;
     color: #fff;
     margin-bottom: 0px;
     text-align: center;
     user-select: none;
 }
-.hll {
+.hello_text {
     font-size: 17px;
     letter-spacing: 0.4px;
     margin-top: 46px;
 }
 
-.name {
+.name_text {
     font-size: 40px;
     letter-spacing: 2.2px;
     margin-top: 15px;
 }
 
-.design {
+.design_text {
     font-size: 14px;
     letter-spacing: 0.6px;
     margin-top: 15px;
     color: #FFA97A;
 }
-.hll_buttons {
+.welcome_buttons_b {
     display: flex;
     justify-content:center;
 }
 
-.list_abbt_bttn {
+.welcome_buttons_list {
     display: flex;
     list-style-type:none;
     padding: 0px;
     margin: 0px;
 }
 
-.button_cv, .button_about {
+.button_cv, .button_about, .button_contact_me {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
@@ -113,27 +112,25 @@ header {
     margin-bottom: 26px;
 }
 
-.button_about {
+.button_cv, .button_about, .button_contact_me {
     display:inline-block;
     background-color: #FFA97A;
-    height: 51px;
-    width: 135px;
     border-radius: 5px;
     text-align: center;
     margin-left: 15px;
 }
 
-.button_cv {
-    display: inline-block;
-    background-color: #FFA97A;
+.button_about {
     height: 51px;
-    width: 156px;
-    border-radius: 5px;
-    text-align: center;
-    margin-right: 15px;
+    width: 135px;
 }
 
-.button_cv:active, .button_about:active {
+.button_cv {
+    height: 51px;
+    width: 156px;
+}
+
+.button_cv:active, .button_about:active, .button_contact_me:active {
     background-color: #111A20;
     border: 2px solid #FFA97A;
     color: #FFA97A;
@@ -148,36 +145,30 @@ header {
     width: 131px;
 }
 
-.igm_hll {
+.welcome_img {
     height: 275px;
     width: 275px;
 }
 
-.about_block {
-    display: block;
-    max-width: 928px;
-    margin: 0 auto;
-}
-
-.about_text {
+.intro_text_b {
     display: block;
     text-align: center;
     user-select: none;
 }
 
-.about_me {
+.intro_text {
     color: #FFA97A;
     font-size: 30px;
     margin: 0px;
 }
 
-.my_intro {
+.podintro_text {
     color: #767676;
     font-size: 15px;
     margin: 0px;
 }
 
-.workinfo_block {
+.workinfo_b {
     display:flex;
     justify-content: space-between;
     margin-top: 70px;
@@ -185,12 +176,12 @@ header {
     margin-right: 50px;
 }
 
-.work_info_text {
+.workinfo_text {
     width: 397px;
     height: 75px;
 }
 
-.work_info_text {
+.workinfo_text {
     margin: 0px;
     font-size: 14px;
     line-height: 25px;
@@ -199,17 +190,69 @@ header {
     user-select: none;
 }
 
-.workscont_block {
+.workscount_b {
     width: 397px;
     display: flex;
     justify-content: space-between;
 }
 
-.workscont_1, .workscont_2, .workscont_3  {
+.workscount_1, .workscount_2, .workscount_3  {
     background-color: #182228;
     height: 90px;
     width: 117px;
     border-radius: 13.5px;
     margin-top: 50px;
+    user-select: none;
 }
 
+.wcountpic {
+    height: 23px;
+    width: 23px;
+    display: flex;
+    margin: 13px auto 0px auto;
+}
+
+.workscount_text_completed {
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+    text-align: center;
+    margin: 7px auto 0px auto;
+}
+
+.workscount_text_project {
+    font-size: 12px;
+    line-height: 18px;
+    color: #959595;
+    text-align: center;
+    margin: 0px auto auto auto;
+}
+
+.contact_b {
+    margin-top: 50px;
+}
+
+.button_contact_me {
+    height: 51px;
+    width: 145px;
+    margin-left: 0px;
+}
+
+.button_contact_me:active {
+    height: 47px;
+    width: 141px;
+}
+
+.experience_diagram {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.experience_diagram_frontend, .experience_diagram_design {
+    margin-top: 50px;
+    background-color: #182228;
+    height: 250px;
+    width: 300px;
+    border-radius: 20px;
+    user-select: none;
+}
