@@ -53,6 +53,7 @@ header {
     text-decoration: none;
     margin-left: 34px;
     user-select: none;
+    transition: color 0.2s linear;
 }
 
 .header_link:hover {
@@ -80,17 +81,17 @@ header {
     margin-top: 0px;
 }
 .hello_text {
-    font-size: 30px;
-    margin-bottom: 40px;
+    font-size: 25px;
+    margin-bottom: 30px;
 }
 
 .name_text {
-    font-size: 70px;
-    margin-bottom: 40px;
+    font-size: 60px;
+    margin-bottom: 30px;
 }
 
 .design_text {
-    font-size: 30px;
+    font-size: 25px;
     color: #FFA97A;
 }
 .welcome_buttons_b {
@@ -101,19 +102,21 @@ header {
 .welcome_buttons_list {
     display: flex;
     justify-content: space-between;
-    width: 321px;
+    width: 379px;
     list-style-type:none;
     padding: 0px;
     margin: 0px;
+    transition: color 1s linear
 }
 
 .button_cv, .button_about, .button_contact_me {
     text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    line-height: 50px;
+    color: #293241;
+    font-size: 25px;
+    line-height: 61px;
     user-select: none;
     margin-bottom: 26px;
+    transition: color 0.5s linear;
 }
 
 .button_cv, .button_about, .button_contact_me {
@@ -124,33 +127,40 @@ header {
 }
 
 .button_about {
-    height: 51px;
-    width: 135px;
+    height: 61px;
+    width: 162px;
 }
 
 .button_cv {
-    height: 51px;
-    width: 156px;
+    height: 61px;
+    width: 187px;
 }
 
-.button_cv:active, .button_about:active, .button_contact_me:active {
+.button_cv:hover, .button_about:hover, .button_contact_me:hover {
     background-color: #111A20;
     border: 2px solid #FFA97A;
     color: #FFA97A;
+    box-shadow: 0px 0px 5px #ffa97a80;
+    text-shadow: 0px 0px 5px #ffa97a80;
+    line-height: 57px;
 }
-.button_cv:active {
-    height: 47px;
-    width: 152px
+.button_cv:hover {
+    height: 57px;
+    width: 183px
 }
 
-.button_about:active {
-    height: 47px;
-    width: 131px;
+.button_about:hover {
+    height: 57px;
+    width: 158px;
+}
+
+.welcome_img_b {
+    height: 330px;
 }
 
 .welcome_img {
-    height: 275px;
-    width: 275px;
+    height: 330px;
+    width: 330px;
 }
 
 .intro_text_b {
@@ -162,13 +172,14 @@ header {
 
 .intro_text {
     color: #FFA97A;
-    font-size: 30px;
+    font-size: 36px;
     margin: 0px;
+    text-shadow: 0px 0px 10px #ffa87a70;
 }
 
 .podintro_text {
     color: #767676;
-    font-size: 15px;
+    font-size: 18px;
     margin: 0px;
 }
 
@@ -208,6 +219,10 @@ header {
     user-select: none;
 }
 
+.workscount_1:hover, .workscount_2:hover, .workscount_3:hover {
+    box-shadow: 0px 0px 15px #000000;
+}
+
 .wcountpic {
     height: 23px;
     width: 23px;
@@ -236,14 +251,14 @@ header {
 }
 
 .button_contact_me {
-    height: 51px;
-    width: 145px;
+    height: 61px;
+    width: 174px;
     margin-left: 0px;
 }
 
-.button_contact_me:active {
-    height: 47px;
-    width: 141px;
+.button_contact_me:hover {
+    height: 57px;
+    width: 170px;
 }
 
 .border_wall_b {
@@ -257,6 +272,10 @@ header {
     width: 300px;
     border-radius: 20px;
     user-select: none;
+}
+
+.border_wall:hover {
+    box-shadow: 0px 0px 15px #000000;
 }
 
 .border_wall_outro {
@@ -334,11 +353,11 @@ header {
 }
 
 .progress_5 {
-    width: 5px; 
+    width: 3px; 
 }
 
 .progress_6 {
-    width: 5px; 
+    width: 3px; 
 }
 
 .checkmarkpic {
